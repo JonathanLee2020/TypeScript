@@ -20,7 +20,11 @@ let newCar = {
 let x = 22;
 x = "hello";
 let jOccupation = "employed";
-// Type assetion
-let y = 2;
-y = ;
-"hello";
+// Type assetion and funcitons
+function add(x, y) {
+    return x + y;
+}
+function copyArr(arr) {
+    return [...arr];
+}
+// func

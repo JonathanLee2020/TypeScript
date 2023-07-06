@@ -45,6 +45,13 @@ type occupation = "employed" | "student"
 
 let jOccupation : occupation = "employed"
 
-// Type assetion
-let y: number = 2
-y = <string> = "hello"
+// Type assetion and funcitons
+ function add(x: any, y: number) {
+    return x + y;
+ }
+
+ function copyArr <T>(arr: T[]): T[] {
+    return [...arr]
+ }
+// func
+
